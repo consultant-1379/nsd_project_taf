@@ -1,0 +1,4 @@
+nodeType,logFileType,expectedOut
+SGSN,session,PASSED
+SGSN,mobility,PASSED
+

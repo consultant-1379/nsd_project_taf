@@ -1,0 +1,3 @@
+profileName,mimModel,moc,attrName,attrValue,expectedOut
+test_pcp,ECIM_Top,ManagedElement,userLabel,dummy,PASSED
+

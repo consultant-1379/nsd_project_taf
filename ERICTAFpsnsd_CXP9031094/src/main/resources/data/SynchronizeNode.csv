@@ -1,0 +1,6 @@
+Id,Title,Mo_Type,Expected_Output
+OSS-66689,Synchronize Node Functionality - SGSN Node,SGSN,PASSED
+OSS-66685,Synchronize Node Functionality - SASN Node,SASN,PASSED
+OSS-66679,Synchronize Node Functionality - EPG-JUNIPER Node,EPG-JUNIPER,PASSED
+OSS-66681,Synchronize Node Functionality - EPG-SSR Node,EPG-SSR,PASSED
+OSS-66683,Synchronize Node Functionality - MSC Node,MSC,PASSED

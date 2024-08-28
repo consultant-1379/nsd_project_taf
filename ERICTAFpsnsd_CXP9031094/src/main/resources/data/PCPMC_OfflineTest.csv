@@ -1,0 +1,4 @@
+MCName,commandRef,expectedOut
+oss_pcp_service,/opt/ericsson/bin/smtool -coldrestart,started
+oss_pcp_service,/opt/ericsson/bin/smtool -offline,offline
+

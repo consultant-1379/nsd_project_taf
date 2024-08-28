@@ -1,0 +1,3 @@
+MCName,commandRef,expectedOut
+oss_nsd_ps,/opt/ericsson/bin/smtool -online,started
+

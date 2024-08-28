@@ -1,0 +1,13 @@
+Id,Title,viewName,expectedOut
+OSS-83692_Func_1,VerifySASNTab,SASN,OK
+OSS-83692_Func_2,VerifySGSNTab,SGSN,OK
+OSS-83692_Func_3,VerifyGGSNTab,GGSN,OK
+OSS-83692_Func_4,VerifyCPGTab,CPG,OK
+OSS-83692_Func_5,VerifyEPGTab,EPG,OK
+OSS-83692_Func_6,VerifyMSCTab,MSC,OK
+OSS-83692_Func_7,VerifyPsPoolAreaTab,PsPoolArea,OK
+OSS-83692_Func_8,VerifyPLMNTab,PLMN,OK
+
+
+
+

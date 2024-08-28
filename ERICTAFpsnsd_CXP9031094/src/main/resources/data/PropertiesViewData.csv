@@ -1,0 +1,5 @@
+id,nodeType,propertiesToFetch,expectedOutput
+OSS-81206_Func_1,SGSN,neMIMName:neMIMversion:connectionStatus:ipAddress:mirrorMIBsynchStatus,OK
+OSS-81206_Func_2,SASN,neMIMName:neMIMversion:connectionStatus:ipAddress:mirrorMIBsynchStatus,OK
+OSS-81206_Func_3,EPG-SSR,neMIMName:connectionStatus:ipAddress:mirrorMIBsynchStatus:lostSynchronisation:sourceType,OK
+OSS-81206_Func_4,EPG-JUNIPER,neMIMName:connectionStatus:ipAddress:mirrorMIBsynchStatus:lostSynchronisation:sourceType,OK

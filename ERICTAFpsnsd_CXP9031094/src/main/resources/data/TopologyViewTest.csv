@@ -1,0 +1,9 @@
+moName,expectedOut
+SGSN,OK
+GGSN,OK
+CPG,OK
+EPG,OK
+PsPool,OK
+SASN,OK
+DNS,OK
+MscPool,OK

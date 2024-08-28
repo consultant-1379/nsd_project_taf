@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NSDACSView">
+ 
+<test name="PRErecTest">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.PRErecTest" />
+	</classes>
+</test>
+
+<test name="PCPProfile">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.PCPProfileTest">
+			<methods>
+				<include name="PCPProfileCreate" />
+				<include name="PCPProfileCompare" />
+				<include name="PCPProfileExport" />
+				<include name="PCPProfileImport" />
+				<include name="PCPProfileUpdate" />
+				<include name="PCPProfileDelete" />
+			</methods>
+		</class>
+	</classes>
+</test>
+
+ 
+</suite>

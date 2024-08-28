@@ -1,0 +1,2 @@
+id,title,executor,result,description,priority,context,vusers
+NSD_3.3.17,PSNSD Status View Test Case,xranush,PASSED,Select Root in EPC Topology View and SGSN in Status View and view Tabs in Properties View,high,UI,1

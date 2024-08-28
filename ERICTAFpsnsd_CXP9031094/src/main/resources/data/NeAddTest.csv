@@ -1,0 +1,5 @@
+viewName,expectedOut
+SGSN,OK
+GGSN,OK
+CPG,OK
+EPG,OK

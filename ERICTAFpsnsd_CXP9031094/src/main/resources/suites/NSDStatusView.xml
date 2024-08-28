@@ -1,0 +1,133 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NSDStatusView">
+   
+    <test name="PreChecks">
+		<classes>
+			<class name="com.ericsson.nsd.taf.test.robustness.PreChecker" />
+		</classes>
+	</test>  
+	
+
+<test name="NSDMCStatus_Functional">
+		<classes>
+			<class name="com.ericsson.nsd.taf.test.cases.NSDMC_FunctionalTest" />
+		</classes>
+	</test>  
+	 
+<test name="PRErecTest">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.PRErecTest" />
+	</classes>
+</test>  
+ 
+<test name="OsgiContainerPrecheck">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.VerifyConfigurationAfterGuiLaunch" />
+	</classes>
+</test>   
+   
+	 <!-- <test name="PCPProfile">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.PCPProfileTest">
+			<methods>
+				<include name="PCPProfileCreate" /> 
+				 Going to remove dependency from PCP<include name="PCPProfilePropertyUpdate" /> 
+				 <include name="PCPProfilePropertyDelete" /> 
+				 <include name="PCPProfileCompare" />  
+				 <include name="PCPProfileExport" />
+				<include name="PCPProfileImport" /> 
+				<include name="PCPProfileUpdate" /> 
+				<include name="PCPProfileDelete" />
+			</methods>
+		</class>
+	</classes>
+</test> -->
+	
+   <test name="PropertiesViewTesting">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.PropertiesViewTesting" />
+	</classes>
+</test>  
+
+   <test name="SGSNviewTesting">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.SGSNviewTesting" />
+	</classes>
+</test> 
+
+ <test name="TopologyViewTesting">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.TopologyViewTesting" />
+	</classes>
+</test>  
+ 
+ 
+<!--  <test name="AlarmViewTesting">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.AlarmViewTesting" />
+	</classes>
+</test>   -->
+ 
+  <test name="ToplogyArneviewTesting">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.ToplogyArneviewTesting" />
+	</classes>
+</test> 
+
+<test name="PoolModificationTesting">
+	<classes>
+		<class name="com.ericsson.nsd.taf.test.cases.PoolModificationTesting" />
+	</classes>
+</test> 
+ 
+ <test name="NEModificationTesting">
+		<classes>
+			<class name="com.ericsson.nsd.taf.test.cases.NEModificationTesting" />
+		</classes>
+	</test>  
+ 
+ 	  
+ <!--   <test name="LogsUtilityTest"> 
+ 	<classes> 
+ 		<class name="com.ericsson.nsd.taf.test.cases.LogsUtilityTest" /> 
+ 	</classes>
+ </test>   -->
+	 
+   <test name="RtKpiVerification">
+		<classes>
+			<class name="com.ericsson.nsd.taf.test.cases.RtKpiVerification" />
+		</classes>
+	</test> 
+  
+	 <test name="StartUpLogsOnMCRestart">
+		<classes>
+			<class name="com.ericsson.nsd.taf.test.cases.StartUpLogsOnMCRestart" />
+			<!-- <methods>
+			<include name = "checkStartUpLogs"></include>
+			<include name = "pASParameterValue"></include>
+			</methods> -->
+		</classes>
+	</test>
+	
+	<!-- <test name="PCPMC_Functional">
+		<classes>
+			<class name="com.ericsson.nsd.taf.test.cases.PCPMC_FunctionalTest" />
+		</classes>
+	</test>  -->
+	
+	<test name="NSD_PostCheckTest">
+		<classes>
+			<class name="com.ericsson.nsd.taf.test.cases.NSD_PostCheckTest">
+			<methods>
+			<include name = "validatePostChecks"></include>
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	    
+
+
+
+	 
+
+</suite>

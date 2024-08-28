@@ -1,0 +1,5 @@
+com.ericsson.oss.core.ps.nsd.taf_1.0.0
+com.ericsson.oss.core.ps.apps.nsd.rtkpi.taf_1.0.0
+com.ericsson.oss.core.ps.nsd.domain.taf_1.0.0
+com.ericsson.oss.core.ps.nsd.logs.taf_1.0.0
+com.ericsson.oss.core.ps.apps.nsd.tr.taf_1.0.0
